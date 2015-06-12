@@ -6,21 +6,21 @@ require 'mean_median_mode/version'
 Gem::Specification.new do |spec|
   spec.name          = "mean_median_mode"
   spec.version       = MeanMedianMode::VERSION
-  spec.authors       = ["Dhara Joshi"]
-  spec.email         = ["djjoshidhara@gmail.com"]
+  spec.authors       = ["Helios Solutions"]
+  spec.email         = ["hsror.support@heliossolutions.in"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Help us to find out mean, median and mode}
+  spec.description   = %q{This gem will help us find mean, median and mode values from the list.}
+  spec.homepage      = "http://www.heliossolutions.in/"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
+  #if spec.respond_to?(:metadata)
+  #  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+  #else
+  #  raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
+  #end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
