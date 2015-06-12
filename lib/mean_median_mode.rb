@@ -1,3 +1,5 @@
+require "mean_median_mode/mean"
+require "mean_median_mode/median"
 require "mean_median_mode/version"
 
 module MeanMedianMode
