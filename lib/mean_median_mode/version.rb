@@ -1,0 +1,3 @@
+module MeanMedianMode
+  VERSION = "0.1.0"
+end
