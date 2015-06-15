@@ -10,11 +10,10 @@ module MeanMedianMode
         if total%2==0
           pos1 = num_arr[((total/2)-1)]
           pos2 = num_arr[(total/2)]
-          puts (pos1+pos2).to_f/2
+          return (pos1+pos2).to_f/2
         else
-          puts 'else'
           pos = ((total+1).to_f)/2
-          puts num_arr[pos]
+          return num_arr[pos-1]
         end
       else
         return 0
